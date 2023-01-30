@@ -3,9 +3,9 @@ from django.contrib.auth import get_user_model
 from django.contrib.auth import forms as auth_forms
 
 from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Submit, Div, Row, Column
 
 from .models import UserAddress, Address
+from .form_layouts import UserCreationLayout, AddressCreationLayout
 
 User = get_user_model()
 
@@ -21,13 +21,7 @@ class UserCreationForm(auth_forms.UserCreationForm):
         super().__init__(*args, **kwargs)
         self.helper = FormHelper()
         self.helper.form_tag = False
-        self.helper.help_text_inline = False
-        self.helper.layout = Layout(
-            "name",
-            "username",
-            "password1",
-            "password2",
-        )
+        self.helper.layout = UserCreationLayout()
 
 
 class AddressCreationForm(forms.ModelForm):
@@ -52,11 +46,4 @@ class AddressCreationForm(forms.ModelForm):
 
         self.helper = FormHelper()
         self.helper.form_tag = False
-        self.helper.layout = Layout(
-            "street",
-            "street_number",
-            "address_complement",
-            "city",
-            "zip_code",
-            "country",
-        )
+        self.helper.layout = AddressCreationLayout()

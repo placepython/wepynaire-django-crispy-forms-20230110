@@ -12,5 +12,3 @@ Pour les outils frontend, il vous faut installer node.js la méthode d'inatallat
 1. Vous rendre dans le répertoire frontend avec la commande `cd frontend`
 2. Installer les dépendances front avec `npm install`
 3. Compiler le code front avec la commande `npm run build`
-
-2. 

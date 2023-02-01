@@ -45,15 +45,6 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
 ]
 
-# Configuration of directories for static files
-STATICFILES_DIRS = [
-    BASE_DIR / "frontend" / "build",
-]
-
-# Config of the webpack loader for python-webpack boilerplate
-WEBPACK_LOADER = {
-    'MANIFEST_FILE': BASE_DIR / "frontend" / "build" / "manifest.json",
-}
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",

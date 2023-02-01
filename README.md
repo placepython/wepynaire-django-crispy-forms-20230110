@@ -6,9 +6,4 @@ Le projet herbergé dana ce dépôt a servi de support au WePynaire que j'ai don
 2. Installer les dépendances avec la commande `pipenv install`
 3. Activer l'environnement virtuel avec la commande `pipenv shell`
 4. Exéxutez les migrations à l'aide de la commande `python manage.py migrate`
-
-Pour les outils frontend, il vous faut installer node.js la méthode d'inatallation officielle pour votre système d'exploitation. Cela vous donnera accès à npm, le pipenv des développeur front. Voici les commandes à exécuter pour préparer les outils pour le dev front-end:
-
-1. Vous rendre dans le répertoire frontend avec la commande `cd frontend`
-2. Installer les dépendances front avec `npm install`
-3. Compiler le code front avec la commande `npm run build`
+5. Exécuter le serveur de développement avec `python manage.py runserver`

@@ -13,7 +13,7 @@ User = get_user_model()
 class UserCreationForm(auth_forms.UserCreationForm):
     """Formulaire de souscription pour les utilisateurs."""
 
-    class Meta(auth_forms.UserCreationForm):
+    class Meta(auth_forms.UserCreationForm.Meta):
         model = User
         fields = ("name", "username")
 

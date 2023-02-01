@@ -1,0 +1,39 @@
+{
+  "app.css": "/static/css/app.f7ef4218e60935b28b72.css",
+  "app.js": "/static/js/app.1fa1bc98.js",
+  "app2.js": "/static/js/app2.ccf1441a.js",
+  "css/app.f7ef4218e60935b28b72.css.map": "/static/css/app.f7ef4218e60935b28b72.css.map",
+  "entrypoints": {
+    "app": {
+      "assets": {
+        "js": [
+          "/static/js/runtime.3fd8750a.js",
+          "/static/js/577.d7f8f3e8.js",
+          "/static/js/app.1fa1bc98.js"
+        ],
+        "css": [
+          "/static/css/app.f7ef4218e60935b28b72.css"
+        ]
+      }
+    },
+    "app2": {
+      "assets": {
+        "js": [
+          "/static/js/runtime.3fd8750a.js",
+          "/static/js/app2.ccf1441a.js"
+        ]
+      }
+    }
+  },
+  "js/577.d7f8f3e8.js": "/static/js/577.d7f8f3e8.js",
+  "js/577.d7f8f3e8.js.LICENSE.txt": "/static/js/577.d7f8f3e8.js.LICENSE.txt",
+  "js/577.d7f8f3e8.js.map": "/static/js/577.d7f8f3e8.js.map",
+  "js/app.1fa1bc98.js.map": "/static/js/app.1fa1bc98.js.map",
+  "js/app2.ccf1441a.js.map": "/static/js/app2.ccf1441a.js.map",
+  "js/runtime.3fd8750a.js.map": "/static/js/runtime.3fd8750a.js.map",
+  "runtime.js": "/static/js/runtime.3fd8750a.js",
+  "vendors/.gitkeep": "/static/vendors/.gitkeep",
+  "vendors/images/.gitkeep": "/static/vendors/images/.gitkeep",
+  "vendors/images/sample.jpg": "/static/vendors/images/sample.jpg",
+  "vendors/images/webpack.png": "/static/vendors/images/webpack.png"
+}

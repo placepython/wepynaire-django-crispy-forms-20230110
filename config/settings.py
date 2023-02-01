@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "wepynaire",
+    "exemple.wepynaire",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -47,12 +47,12 @@ INSTALLED_APPS = [
 
 # Configuration of directories for static files
 STATICFILES_DIRS = [
-    BASE_DIR / "frontend" / "build",
+    BASE_DIR / "exemple" / "_static",
 ]
 
 # Config of the webpack loader for python-webpack boilerplate
 WEBPACK_LOADER = {
-    'MANIFEST_FILE': BASE_DIR / "frontend" / "build" / "manifest.json",
+    'MANIFEST_FILE': BASE_DIR / "exemple" / "_static" / "manifest.json",
 }
 
 MIDDLEWARE = [
@@ -71,7 +71,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            BASE_DIR / "templates",
+            BASE_DIR / "exemple" / "_templates",
         ],
         "APP_DIRS": True,
         "OPTIONS": {
